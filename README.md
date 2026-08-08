@@ -18,7 +18,9 @@ Roda na sua máquina, com GPU NVIDIA, e funciona sem internet.
 
 </div>
 
-<img src="docs/img/dashboard.png" alt="Tela inicial do TecJustiça Transcribe">
+<img src="docs/img/transcricao.png" alt="Transcrição com falantes separados, fita da audiência e vídeo sincronizado">
+
+<div align="center"><sub>As telas desta página usam uma audiência simulada, com dados fictícios.</sub></div>
 
 ---
 
@@ -77,6 +79,19 @@ Baixe a versão mais recente na [página de releases](https://github.com/marcosm
 | 🤖 **Análise por IA (opcional)** | Resumo em tópicos com horário clicável, e chat com a transcrição. Você usa sua própria chave do Google Gemini ou da OpenAI. |
 | 🔒 **Offline de verdade** | Depois da instalação, nenhum áudio sai da máquina e nada precisa de internet. |
 | ⚡ **Fila de trabalhos** | Envie vários arquivos e continue usando o programa. A fila processa um por vez, para caber na VRAM. |
+
+### Análise por IA, com a sua chave
+
+O painel de análise divide a audiência em tópicos com horário clicável, e o chat
+responde perguntas sobre o que foi dito, citando o trecho. Você cola sua chave
+do Google Gemini ou da OpenAI em Configurações, e o texto vai direto para o
+provedor que escolheu.
+
+<img src="docs/img/analise.png" alt="Painel de análise por IA, com resumo geral e tópicos com horário">
+
+### Tela inicial
+
+<img src="docs/img/dashboard.png" alt="Tela inicial com estatísticas e transcrições recentes">
 
 ---
 
